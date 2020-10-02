@@ -13,7 +13,7 @@ int main(){
     if(n == 2 || n == 3) cout << "NO SOLUTION";
     else if(n == 4) cout << "2 4 1 3";
     else {
-        int ans[n] = {};
+        int ans[n]; 
         ans[0] = 1;
         int k = 1, i = 3;
         bool second = false;
